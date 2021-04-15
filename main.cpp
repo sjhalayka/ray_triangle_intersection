@@ -122,7 +122,7 @@ int main(void)
 		return 2;
 	}
 
-	get_vertices_and_normals_from_triangles(triangles, face_normals, vertices, vertex_normals);
+//	get_vertices_and_normals_from_triangles(triangles, face_normals, vertices, vertex_normals);
 
 	vec3 pos = vec3(10, 0, 0);
 	vec3 look_at_ray = vec3(-1, 0, 0);
@@ -144,7 +144,7 @@ int main(void)
 
 		if (found_intersection)
 		{
-			pos = outIntersectionPoint;
+			//pos = outIntersectionPoint;
 			intersection_count++;
 		}
 	}
