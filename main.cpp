@@ -144,7 +144,6 @@ int main(void)
 
 		if (found_intersection)
 		{
-			//pos = outIntersectionPoint;
 			intersection_count++;
 		}
 	}
